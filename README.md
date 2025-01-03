@@ -66,7 +66,7 @@ Here's how the repository is organized:
    - Interactive forms
    - API integrations
 
----
+-----
 
 ## 🌟 Features
 
@@ -75,11 +75,11 @@ Here's how the repository is organized:
 - **Organized content**: Easy-to-navigate structure for quick reference.
 - **Community contributions**: Open for pull requests and improvements.
 
----
+------
 
 ## 🚀 Getting Started
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/web-dev-learning-hub.git
-   cd web-dev-learning-hub
+   git clone https://github.com:alenway/webjourney.git
+   cd webjourney
