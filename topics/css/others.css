@@ -1,0 +1,70 @@
+/* Lists */
+list-style
+list-style-type
+list-style-position
+list-style-image
+
+/* ----------------- */
+
+/* Table */
+border-collapse
+border-spacing
+caption-side
+empty-cells
+table-layout
+
+/* ----------------- */
+
+/* Transformations */
+transform
+transform-origin
+transform-style
+perspective
+perspective-origin
+backface-visibility
+
+/* ---------------- */
+
+/* Filters */
+filter
+backdrop-filter
+
+/* ----------------- */
+
+ /* Appearance and Interactivity */
+cursor
+pointer-events
+resize
+user-select
+caret-color
+
+/* --------------------- */
+
+ /* Content and Quoting */
+content
+quotes
+counter-reset
+counter-increment
+
+/* --------------------- */
+
+/* Miscellaneous */
+opacity
+clip-path
+isolation
+box-decoration-break
+will-change
+
+/* --------------------- */
+
+ /* Media Queries and Custom Properties */
+@media
+@supports
+@keyframes
+:root (Custom properties with --property-name)
+
+/* ----------------------- */
+
+/* CSS Variables */
+--main-color: #333;
+--spacing: 16px;
