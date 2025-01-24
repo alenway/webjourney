@@ -80,6 +80,5 @@ Here's how the repository is organized:
 ## 🚀 Getting Started
 
 1. Clone the repository:
-   ```bash
    git clone https://github.com:alenway/webjourney.git
    cd webjourney
