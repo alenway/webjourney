@@ -1,269 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Root element of an HTML document -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Title of the webpage -->
-    <title>HTML Tags Example</title>
-</head>
-<body>
-    <!-- HTML Document Structure -->
-    <!-- <!DOCTYPE> declares the document type -->
-    <!-- <html> is the root element -->
-    <!-- <head> contains metadata -->
-    <!-- <body> contains visible content -->
-
-    <!-- Headings -->
-    <h1>Heading Level 1</h1> <!-- Used for main titles -->
-    <h2>Heading Level 2</h2> <!-- Subheading -->
-    <h3>Heading Level 3</h3>
-    <h4>Heading Level 4</h4>
-    <h5>Heading Level 5</h5>
-    <h6>Heading Level 6</h6>
-
-    <!-- Lorem ipsum -->
-
-    <!-- Paragraphs and Text Formatting -->
-    <p>This is a paragraph.</p> <!-- Paragraph tag -->
-    <b>Bold Text</b> <!-- Makes text bold -->
-    <i>Italic Text</i> <!-- Makes text italic -->
-    <u>Underlined Text</u> <!-- Underlines the text -->
-    <strong>Strong Text</strong> <!-- Important text, rendered bold -->
-    <em>Emphasized Text</em> <!-- Emphasizes text, rendered italic -->
-    <mark>Highlighted Text</mark> <!-- Highlights text -->
-    <small>Small Text</small> <!-- Displays smaller text -->
-    <sub>Subscript</sub> <!-- Subscript text -->
-    <sup>Superscript</sup> <!-- Superscript text -->
-    <br> <!-- Line Break -->
-    <hr> <!-- Horizontal Rule -->
-
-    <!-- Links -->
-    <a href="https://example.com">This is a hyperlink</a> <!-- Creates a hyperlink -->
-    <nav> <!-- Section for navigation links. -->
-
-    <!-- Lists -->
-    <ul>
-        <!-- Unordered list -->
-        <li>Item 1</li> <!-- List item -->
-        <li>Item 2</li>
-    </ul>
-    <ol>
-        <!-- Ordered list -->
-        <li>First item</li>
-        <li>Second item</li>
-    </ol>
-    <dl>
-        <!-- Description list -->
-        <dt>Term</dt> <!-- Term -->
-        <dd>Definition of the term</dd> <!-- Definition -->
-    </dl>
-
-    <!-- Tables -->
-    <table>
-        <!-- Table structure -->
-        <thead>
-            <tr>
-                <th>Header 1</th> <!-- Table header -->
-                <th>Header 2</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Row 1, Col 1</td> <!-- Table data -->
-                <td>Row 1, Col 2</td>
-            </tr>
-        </tbody>
-    </table>
-
-     <!-- <caption>: Provides a title for the table -->
-        <caption>Student Grades</caption>
-
-     <!-- <colgroup>: Groups columns for styling or properties -->
-        <colgroup>
-            <col style="background-color: #f2f2f2;"> <!-- <col>: Applies properties to the first column -->
-            <col style="background-color: #e6f7ff;">
-            <col style="background-color: #f2f2f2;">
-        </colgroup>
-
-    <!-- Forms -->
-    <form action="#">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name"> <!-- Input field -->
-        <textarea name="message" id="message" rows="4" cols="50">Message</textarea> <!-- Text area -->
-        <button type="submit">Submit</button> <!-- Button -->
-    </form>
-
-    <!-- Multimedia -->
-    <img src="image.jpg" alt="Sample Image"> <!-- Image -->
-    <audio controls>
-        <source src="audio.mp3" type="audio/mpeg"> <!-- Audio file -->
-    </audio>
-    <video controls>
-        <source src="video.mp4" type="video/mp4"> <!-- Video file -->
-    </video>
-
-    <!-- Semantic Tags -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Tags Reference</title>
+  </head>
+  <body>
+    <!-- Document Structure -->
     <header>
-        <!-- Header section -->
-        <h1>Website Header</h1>
+      <h1>HTML Tags Reference</h1>
+      <nav>
+        <ul>
+          <li><a href="#text">Text Elements</a></li>
+          <li><a href="#lists">Lists</a></li>
+          <li><a href="#tables">Tables</a></li>
+          <li><a href="#forms">Forms</a></li>
+          <li><a href="#media">Media</a></li>
+        </ul>
+      </nav>
     </header>
+
     <main>
-        <!-- Main content -->
-        <p>This is the main content area.</p>
+      <!-- Text Elements -->
+      <section id="text">
+        <h2>Text Elements</h2>
+
+        <!-- Headings -->
+        <article>
+          <h3>Headings</h3>
+          <h1>Heading 1</h1>
+          <h2>Heading 2</h2>
+          <h3>Heading 3</h3>
+          <h4>Heading 4</h4>
+          <h5>Heading 5</h5>
+          <h6>Heading 6</h6>
+        </article>
+
+        <!-- Text Formatting -->
+        <article>
+          <h3>Text Formatting</h3>
+          <p>
+            Regular paragraph with <strong>strong text</strong> and
+            <em>emphasized text</em>.
+          </p>
+          <p>
+            Text can be <mark>highlighted</mark>, <sub>subscript</sub>, or
+            <sup>superscript</sup>.
+          </p>
+          <p>For code, use <code>inline code</code> or code blocks:</p>
+          <pre><code>function example() {
+    return "Hello, World!";
+}</code></pre>
+        </article>
+      </section>
+
+      <!-- Lists -->
+      <section id="lists">
+        <h2>Lists</h2>
+
+        <article>
+          <h3>Unordered List</h3>
+          <ul>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Ordered List</h3>
+          <ol>
+            <li>First step</li>
+            <li>Second step</li>
+            <li>Third step</li>
+          </ol>
+        </article>
+
+        <article>
+          <h3>Description List</h3>
+          <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+          </dl>
+        </article>
+      </section>
+
+      <!-- Tables -->
+      <section id="tables">
+        <h2>Tables</h2>
+        <table>
+          <caption>
+            Sample Data Table
+          </caption>
+          <thead>
+            <tr>
+              <th>Header 1</th>
+              <th>Header 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Data 1</td>
+              <td>Data 2</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Forms -->
+      <section id="forms">
+        <h2>Forms</h2>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Personal Information</legend>
+
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4"></textarea>
+            </div>
+
+            <div>
+              <label>Preferences:</label>
+              <select name="preference">
+                <option value="">Select an option</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+              </select>
+            </div>
+
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+
+      <!-- Media -->
+      <section id="media">
+        <h2>Media Elements</h2>
+
+        <article>
+          <h3>Images</h3>
+          <figure>
+            <img src="placeholder.jpg" alt="Placeholder image" />
+            <figcaption>A sample image with caption</figcaption>
+          </figure>
+        </article>
+
+        <article>
+          <h3>Audio</h3>
+          <audio controls>
+            <source src="sample.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+        </article>
+
+        <article>
+          <h3>Video</h3>
+          <video controls width="400">
+            <source src="sample.mp4" type="video/mp4" />
+            Your browser does not support the video element.
+          </video>
+        </article>
+      </section>
+
+      <!-- Interactive Elements -->
+      <section>
+        <h2>Interactive Elements</h2>
+        <details>
+          <summary>Click to show more</summary>
+          <p>This is additional information that can be shown or hidden.</p>
+        </details>
+
+        <progress value="70" max="100">70%</progress>
+        <meter value="0.6">60%</meter>
+      </section>
     </main>
+
     <footer>
-        <!-- Footer -->
-        <p>Website Footer</p>
+      <p>Created for HTML learning purposes</p>
+      <time datetime="2024-03-13">March 13, 2024</time>
     </footer>
-
-    <!-- Interactive Elements -->
-    <details>
-        <!-- Collapsible content -->
-        <summary>More Information</summary>
-        <p>Details about the topic.</p>
-    </details>
-
-    <!-- Code Snippets -->
-    <code>let x = 5;</code> <!-- Inline code -->
-    <pre>
-        <!-- Preformatted text -->
-        function hello() {
-            console.log("Hello, world!");
-        }
-    </pre>
-
-    <!-- Embedded Content -->
-    <iframe src="https://example.com" width="300" height="200"></iframe> <!-- Embedded webpage -->
-
-    <!-- Sectioning Tags -->
-    <section>
-        <!-- <section>: Defines a section of content -->
-        <h1>Main Section</h1>
-        <p>This is a section of the document.</p>
-    </section>
-    <article>
-        <!-- <article>: Self-contained content -->
-        <h2>Article Title</h2>
-        <p>This is an article with standalone content.</p>
-    </article>
-    <aside>
-        <!-- <aside>: Related content or sidebar -->
-        <p>This is aside content.</p>
-    </aside>
-
-    <!-- Forms -->
-    <form>
-        <label for="name">Name:</label> <!-- <label>: Describes form input -->
-        <input type="text" id="name" name="name">
-
-        <fieldset>
-            <!-- <fieldset>: Groups related inputs -->
-            <legend>Choose your preferences:</legend> <!-- <legend>: Caption for fieldset -->
-            <label><input type="radio" name="color" value="red"> Red</label>
-            <label><input type="radio" name="color" value="blue"> Blue</label>
-        </fieldset>
-
-        <datalist id="fruits">
-            <!-- <datalist>: Predefined options -->
-            <option value="Apple"></option>
-            <option value="Banana"></option>
-        </datalist>
-        <input list="fruits" placeholder="Choose a fruit">
-
-        <output name="result">0</output> <!-- <output>: Result of calculations -->
-
-        <button type="submit">Submit</button>
-    </form>
-
-    <!-- Dropdown -->
-    <select>
-        <!-- <select>: Dropdown list -->
-        <optgroup label="Fruits">
-            <!-- <optgroup>: Groups options -->
-            <option>Apple</option> <!-- <option>: Dropdown item -->
-            <option>Banana</option>
-        </optgroup>
-    </select>
-
-    <!-- Media -->
-    <figure>
-        <!-- <figure>: Media with a caption -->
-        <img src="image.jpg" alt="Sample Image">
-        <figcaption>Sample Image Caption</figcaption> <!-- <figcaption>: Caption for figure -->
-    </figure>
-    <video controls>
-        <source src="video.mp4" type="video/mp4">
-        <track src="captions.vtt" kind="subtitles" srclang="en" label="English"> <!-- <track>: Media captions -->
-    </video>
-
-    <!-- Image Map -->
-    <img src="map.jpg" usemap="#imagemap" alt="Image Map">
-    <map name="imagemap">
-        <!-- <map>: Defines an image map -->
-        <area shape="rect" coords="34,44,270,350" href="https://example.com" alt="Clickable Area"> <!-- <area>: Defines clickable regions -->
-    </map>
-
-    <!-- Semantic Tags -->
-    <header>
-        <!-- <header>: Header of a document -->
-        <h1>Website Header</h1>
-    </header>
-    <footer>
-        <!-- <footer>: Footer of a document -->
-        <p>Website Footer</p>
-    </footer>
-
-    <!-- Interactive Content -->
-    <dialog open>
-        <!-- <dialog>: Dialog box -->
-        <p>This is a dialog box.</p>
-    </dialog>
-    <menu>
-        <!-- <menu>: List of commands -->
-        <menuitem>Command 1</menuitem> <!-- Deprecated -->
-    </menu>
-
-    <!-- Embedded Content -->
-    <iframe src="https://example.com" width="300" height="200"></iframe> <!-- <iframe>: Embed another page -->
-    <embed src="file.pdf" width="300" height="200"> <!-- <embed>: Embed external content -->
-    <object data="file.pdf" type="application/pdf" width="300" height="200"> <!-- <object>: Embed objects -->
-        <param name="autoplay" value="true"> <!-- <param>: Parameters for <object> -->
-    </object>
-
-    <!-- Graphics -->
-    <canvas id="myCanvas" width="400" height="200"></canvas> <!-- <canvas>: Drawing area -->
-
-    <!-- JavaScript -->
-    <script>
-        console.log("Hello, World!"); // <script>: JavaScript
-    </script>
-
-    <noscript><!-- <noscript>: Fallback for no JavaScript -->
-        <p>JavaScript is not supported.</p>
-    </noscript>
-
-    <!-- Text and Formatting -->
-    <code>let x = 5;</code> <!-- <code>: Inline code -->
-    <kbd>Ctrl + C</kbd> <!-- <kbd>: Keyboard input -->
-    <samp>Sample output</samp> <!-- <samp>: Program output -->
-    <var>x</var> <!-- <var>: Variable in text -->
-    <ruby>
-        漢 <!-- <ruby>: Ruby annotation -->
-        <rt>Kanji</rt> <!-- <rt>: Ruby text -->
-    </ruby>
-    <rp>(Kanji)</rp> <!-- <rp>: Fallback for unsupported ruby -->
-
-    <!-- Obsolete Tags -->
-    <center>This text is center-aligned (use CSS instead).</center> <!-- Obsolete -->
-    <font size="4" color="blue">This text has font styling (use CSS instead).</font> <!-- Obsolete -->
-    <big>This is bigger text (use CSS instead).</big> <!-- Obsolete -->
-    <strike>This text is strikethrough (use <del> or <s> instead).</strike> <!-- Obsolete -->
-
-    <!-- Other -->
-    <time datetime="2023-12-31">December 31, 2023</time> <!-- <time>: Specific time -->
-    <progress value="50" max="100"></progress> <!-- <progress>: Progress bar -->
-    <meter value="2" min="0" max="10"></meter> <!-- <meter>: Measurement -->
-
-</body>
+  </body>
 </html>
